@@ -1,0 +1,76 @@
+src/packages/**/*
+
+# Build Folders 
+[Bb]in/
+[Oo]bj/
+
+# Build results
+TestResults/
+[Dd]ebug/
+[Rr]elease/
+x64/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.suo
+*.v12.suo
+*.sln.DotSettings.user
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+*.DotSettings.user
+
+# NuGet Packages Directory
+packages
+src/packages/
+src/MAP.Framework/MAP.Web/Modules
+src/MAP.Framework/MAP.Web/Workflows
+
+# OS generated files
+._*
+.DS_Store
+
+# Grunt stuff
+src/MAP.Framework/MAP.Web/assets/
+node_modules/
+.tmp/
+src/MAP.Framework/MAP.Web/default.htm
+
+# Installers
+src/MAP.Installer/MAP.Installer/Dependencies/
+
+*.user
+src/.vs/
+*Stylecop.Cache
+.idea/
+/.vs
+/src/MAP.Analysis.Service/.vs/MAP.Analysis.Service/v15/Server/sqlite3
+/src/MAP.Installer/Output
+/src/MAP.Installer/.vs/MAP.Installer/v15/Server/sqlite3
+/HashedResourceManifestParserUtil.zip
+Components.wxs
+ComponentsC.wxs
+MigrationComponents.wxs
+MigrationUtilityComponents.wxs
+RTACompleteLRMNotifierInstaller.wxs
+/src/MAP.Analysis.Service/MAP.Analysis.Service/Util
+/src/MAP.Job.Service/MAPJobService/Util
+/src/MAP.Framework/MAP.Web/app/styles/old-styles.css
+/src/MAP.Framework/MAP.Web/app/styles/ui-lib-styles.css
+/src/MAP.Framework/MAP.Installer/RTACompleteLRMNotifierInstallerLegacy.wxs
